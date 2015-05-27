@@ -1,0 +1,14 @@
+﻿<Window x:Class="DispatcherHelperDemo.MainWindow"
+				xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+				xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+				xmlns:dispatcherHelperDemo="clr-namespace:DispatcherHelperDemo"
+				Title="MainWindow" Height="350" Width="525">
+	<!--<Window.DataContext>
+		<dispatcherHelperDemo:MainViewModel />
+	</Window.DataContext>-->
+	<StackPanel Orientation="Horizontal">
+		<Button>Get baidu 首頁長度</Button>
+		<TextBlock>baidu 首頁長度為</TextBlock>
+		<TextBlock x:Name="LengthTextBlock" Margin="10, 0"></TextBlock>
+	</StackPanel>
+</Window>

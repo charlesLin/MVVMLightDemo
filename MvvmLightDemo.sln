@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{820F1BCF-6934-4589-9DD9-1BC322028513}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{2F4CF378-B715-44F1-88C0-D146CF2F7C0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F3CBF61E-F085-44F4-AF62-A0FD35C315C5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 EditDetailDemo", "2 EditDetailDemo", "{12F12755-8BE5-43FD-BB86-E0615FCA8C17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 DispatcherHelperDemo", "4 DispatcherHelperDemo", "{57861EAA-08F7-452A-9CB0-60794E240A6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatcherHelperDemo", "DispatcherHelperDemo\DispatcherHelperDemo.csproj", "{63DD4BB3-985E-491C-AE4C-5343493A74F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 EventToCommandDemo", "5 EventToCommandDemo", "{3A9F462D-BEB6-4E4A-A637-680ABF7F1F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventToCommandDemo", "EventToCommandDemo\EventToCommandDemo.csproj", "{0E7D7077-CA31-4970-AF2B-A96EF12377F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 MessengerDemo", "3 MessengerDemo", "{7C57EDB7-BC37-4C75-ABC5-C57D0BF8D55E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerDemo", "MessengerDemo\MessengerDemo.csproj", "{27EE10FC-BBE8-4441-95FF-5C5414FFE016}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 LoginDemo", "1 LoginDemo", "{DBE5525E-3AD9-4272-B52B-159A0150AD9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditDetailDemo", "EditDetailDemo\EditDetailDemo.csproj", "{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginInWpf", "LoginInWpf\LoginInWpf.csproj", "{DFF5C16E-F080-401D-AF94-49653D4C83B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{820F1BCF-6934-4589-9DD9-1BC322028513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820F1BCF-6934-4589-9DD9-1BC322028513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820F1BCF-6934-4589-9DD9-1BC322028513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820F1BCF-6934-4589-9DD9-1BC322028513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4CF378-B715-44F1-88C0-D146CF2F7C0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4CF378-B715-44F1-88C0-D146CF2F7C0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4CF378-B715-44F1-88C0-D146CF2F7C0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4CF378-B715-44F1-88C0-D146CF2F7C0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63DD4BB3-985E-491C-AE4C-5343493A74F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63DD4BB3-985E-491C-AE4C-5343493A74F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63DD4BB3-985E-491C-AE4C-5343493A74F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63DD4BB3-985E-491C-AE4C-5343493A74F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7D7077-CA31-4970-AF2B-A96EF12377F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7D7077-CA31-4970-AF2B-A96EF12377F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7D7077-CA31-4970-AF2B-A96EF12377F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7D7077-CA31-4970-AF2B-A96EF12377F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27EE10FC-BBE8-4441-95FF-5C5414FFE016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27EE10FC-BBE8-4441-95FF-5C5414FFE016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27EE10FC-BBE8-4441-95FF-5C5414FFE016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27EE10FC-BBE8-4441-95FF-5C5414FFE016}.Release|Any CPU.Build.0 = Release|Any CPU
+		{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF5C16E-F080-401D-AF94-49653D4C83B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF5C16E-F080-401D-AF94-49653D4C83B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF5C16E-F080-401D-AF94-49653D4C83B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF5C16E-F080-401D-AF94-49653D4C83B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{820F1BCF-6934-4589-9DD9-1BC322028513} = {12F12755-8BE5-43FD-BB86-E0615FCA8C17}
+		{2F4CF378-B715-44F1-88C0-D146CF2F7C0B} = {12F12755-8BE5-43FD-BB86-E0615FCA8C17}
+		{E9B9CCDA-78D6-4C6B-B08E-20ED67BF99BD} = {12F12755-8BE5-43FD-BB86-E0615FCA8C17}
+		{63DD4BB3-985E-491C-AE4C-5343493A74F5} = {57861EAA-08F7-452A-9CB0-60794E240A6B}
+		{0E7D7077-CA31-4970-AF2B-A96EF12377F8} = {3A9F462D-BEB6-4E4A-A637-680ABF7F1F56}
+		{27EE10FC-BBE8-4441-95FF-5C5414FFE016} = {7C57EDB7-BC37-4C75-ABC5-C57D0BF8D55E}
+		{516101A8-D0F1-45F5-B5F6-85FDC2B7A30B} = {12F12755-8BE5-43FD-BB86-E0615FCA8C17}
+		{DFF5C16E-F080-401D-AF94-49653D4C83B0} = {DBE5525E-3AD9-4272-B52B-159A0150AD9E}
+	EndGlobalSection
+EndGlobal
