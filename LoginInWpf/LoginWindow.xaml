@@ -12,7 +12,7 @@
 		<Label Content="Password" HorizontalAlignment="Left" Margin="35,70,0,0" VerticalAlignment="Top"/>
 		<PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="23"  VerticalAlignment="Top" Width="120" Margin="153,72,0,0"  />
 		<Button Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="62,142,0,0"
-			IsDefault="True"  Command="{Binding LoginCommand}" CommandParameter="{Binding Password, ElementName=passwordBox}"/>
+			IsDefault="True"  Command="{Binding LoginCommand}" CommandParameter="{Binding ElementName=passwordBox}"/>
 		<Button Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="168,142,0,0" RenderTransformOrigin="1.853,0.789" Click="Button_Click_1"
 						/>
 

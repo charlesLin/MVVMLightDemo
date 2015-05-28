@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using GalaSoft.MvvmLight.CommandWpf;
 using LoginInWpf.Annotations;
 
@@ -51,50 +53,28 @@ namespace LoginInWpf.ViewModels
 
 		private string _password = null;
 
-		/// <summary>
-		/// Sets and gets the Password property.
-		/// Changes to that property's value raise the PropertyChanged event. 
-		/// </summary>
-		public string Password
-		{
-			get
-			{
-				return _password;
-			}
-
-			set
-			{
-				if (_password == value)
-				{
-					return;
-				}
-
-				_password = value;
-				RaisePropertyChanged(PasswordPropertyName);
-			}
-		}
-
-		private RelayCommand<string> _loginCommand;
+		private RelayCommand<PasswordBox> _loginCommand;
 
 		/// <summary>
 		/// Gets the LoginCommand.
 		/// </summary>
-		public RelayCommand<string> LoginCommand
+		public RelayCommand<PasswordBox> LoginCommand
 		{
 			get
 			{
 				return _loginCommand
-						?? (_loginCommand = new RelayCommand<string>(ExecuteLoginCommand, (s) =>
+						?? (_loginCommand = new RelayCommand<PasswordBox>(ExecuteLoginCommand, (s) =>
 						{
-							return (!string.IsNullOrEmpty(Account));
+							return (!string.IsNullOrEmpty(Account) && !string.IsNullOrEmpty(s.Password));
 						}));
 			}
 		}
 
 
 
-		private void ExecuteLoginCommand(string password)
+		private void ExecuteLoginCommand(PasswordBox box)
 		{
+			Debug.WriteLine(box.Password);
 			LoginAction();
 		}
 
